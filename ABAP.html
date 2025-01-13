@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>ABAP</title>
+</head>
+<body>
+<h1>ABAP</h1>
+<p>Lerne mehr über <a href='https://learning.sap.com/learning-journeys/acquire-core-abap-skills' target='_blank'>ABAP</a>.</p>
+<h2>Notizen</h2>
+<textarea id='notes' rows='10' cols='50' placeholder='Notizen hier einfügen...'></textarea>
+<br><button onclick='saveNotes()'>Notizen speichern</button>
+
+<script>
+function saveNotes() {
+    const notes = document.getElementById('notes').value;
+    localStorage.setItem(window.location.pathname, notes);
+    alert('Notizen gespeichert!');
+}
+window.onload = function() {
+    const savedNotes = localStorage.getItem(window.location.pathname);
+    if (savedNotes) {
+        document.getElementById('notes').value = savedNotes;
+    }
+};
+</script>
+            <h2>Weitere Themen:</h2>
+<ul>
+<li><a href='ABAP_OO.html'>ABAP OO</a></li>
+<li><a href='DDIC.html'>DDIC</a></li>
+<li><a href='SAPUI5.html'>SAPUI5</a></li>
+<li><a href='Schnittstellen_und_Webservices.html'>Schnittstellen und Webservices</a></li>
+<li><a href='SAP_BTP_–_Integration_Suite.html'>SAP BTP – Integration Suite</a></li>
+<li><a href='SAP_BTP_–_Entwicklungsumgebung_(ABAP_Cloud).html'>SAP BTP – Entwicklungsumgebung (ABAP Cloud)</a></li>
+<li><a href='Workflow.html'>Workflow</a></li>
+<li><a href='Formulare.html'>Formulare</a></li>
+<li><a href='Berichte,_Schnittstellen,_Zusatztransaktionen,_Fiori-Apps.html'>Berichte, Schnittstellen, Zusatztransaktionen, Fiori-Apps</a></li>
+<li><a href='CDS-Views_und_Embedded_Analytics.html'>CDS-Views und Embedded Analytics</a></li>
+<li><a href='Künstliche_Intelligenz_(AI).html'>Künstliche Intelligenz (AI)</a></li>
+</ul>
+</body>
+</html>
