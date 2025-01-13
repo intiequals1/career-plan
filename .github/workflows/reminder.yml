@@ -1,9 +1,9 @@
 name: Monthly Reminder
 
 on:
-  workflow_dispatch: # Fügt eine manuelle Ausführungsoption hinzu
+  workflow_dispatch: # Ermöglicht manuelles Starten
   schedule:
-    # Sendet die Erinnerung jeden Monat am 1. Tag
+    # Erinnerung jeden Monat am 1. um 9:00 Uhr UTC
     - cron: "0 9 1 * *"
 
 jobs:
@@ -13,6 +13,7 @@ jobs:
       - name: Send Reminder
         uses: dawidd6/action-send-mail@v3
         with:
+          from: claudiu.dangulea@gmail.com # Absenderadresse hinzufügen
           server_address: smtp.gmail.com
           server_port: 587
           username: ${{ secrets.EMAIL_USERNAME }}
@@ -20,9 +21,11 @@ jobs:
           subject: "Monatliche Erinnerung: Ziele überprüfen"
           body: |
             Hallo Claudiu,
+
             erinnere dich daran, deinen Fortschritt im 6-Monats-Plan zu überprüfen:
             - Weiterbildung
             - Netzwerken
             - Projektakquise
+
             Liebe Grüße, deine GitHub Actions
-          to: claudiu@dangulea.at
+          to: claudiu.dangulea@gmail.com # Empfängeradresse
