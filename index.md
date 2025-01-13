@@ -56,6 +56,95 @@
 
 **Hinweis:** Dieser Plan dient als Leitfaden. Passe die Zeiten entsprechend deinem individuellen Lerntempo und deinen Verpflichtungen an. Es ist wichtig, regelmäßig zu üben und das Gelernte in praktischen Projekten anzuwenden, um ein tiefes Verständnis zu entwickeln.
 
+## Zusätzliche Themen und Ressourcen
+
+### **ABAP (Advanced Business Application Programming)**
+
+ABAP ist die Basisprogrammiersprache in SAP zur Erstellung von Geschäftsanwendungen.  
+- **Kurs:** [Grundlegende ABAP-Fähigkeiten erwerben](https://learning.sap.com/learning-journeys/acquire-core-abap-skills)
+
+---
+
+### **ABAP OO (Objektorientiertes ABAP)**
+
+Ermöglicht die Entwicklung modularer und wartbarer Anwendungen mit Klassen und Objekten.  
+- **Kurs:** [Grundlegende ABAP-Fähigkeiten erwerben](https://learning.sap.com/learning-journeys/acquire-core-abap-skills)
+
+---
+
+### **DDIC (Data Dictionary)**
+
+Verwaltung von Datenbankobjekten wie Tabellen, Views und Datenelementen im SAP-System.  
+- **Kurs:** [Grundlegende ABAP-Fähigkeiten erwerben](https://learning.sap.com/learning-journeys/acquire-core-abap-skills)
+
+---
+
+### **SAPUI5**
+
+Framework für die Entwicklung von modernen Benutzeroberflächen.  
+- **Kurs:** [Entwicklung von SAPUI5-Anwendungen](https://learning.sap.com/learning-journeys/develop-sapui5-applications)
+
+---
+
+### **Schnittstellen und Webservices (BAdIs, User-Exits)**
+
+Integration externer Systeme und Erweiterung von Standardfunktionen.  
+- **Kurs:** [Entwicklererweiterungen verstehen](https://learning.sap.com/learning-journeys/practicing-clean-core-extensibility-for-sap-s-4hana-cloud/explaining-developer-extensibility_f2683861-d69e-4a59-9e3e-01e3cc20fb0f)
+
+---
+
+### **SAP BTP – Integration Suite**
+
+Integration von Daten und Anwendungen über SAP- und Nicht-SAP-Systeme hinweg.  
+- **Kurs:** [Einrichtung einer ABAP-Umgebung in SAP BTP](https://learning.sap.com/learning-journeys/setting-up-an-abap-environment-on-sap-btp)
+
+---
+
+### **SAP BTP – Entwicklungsumgebung (ABAP Cloud)**
+
+Cloudbasierte Umgebung für die Entwicklung von Anwendungen.  
+- **Kurs:** [Grundlagen von ABAP verstehen](https://learning.sap.com/learning-journeys/learn-the-basics-of-abap-programming-on-sap-btp/understanding-abap)
+
+---
+
+### **Workflow**
+
+Automatisierung und Verwaltung von Geschäftsprozessen.  
+- **Kurs:** [Workflow-Entwicklung mit SAP](https://learning.sap.com/learning-journeys/developing-business-processes-with-sap-process-orchestration)
+
+---
+
+### **Formulare (SAPScript, SmartForms, Adobe Forms)**
+
+Erstellung und Anpassung von Geschäftsdokumenten.  
+- **Kurs:** [Formulare entwickeln](https://learning.sap.com/learning-journeys/acquire-core-abap-skills)
+
+---
+
+### **Berichte, Schnittstellen, Zusatztransaktionen, Fiori-Apps**
+
+Erstellung individueller Lösungen und Erweiterung von Standardanwendungen.  
+- **Kurs:** [Entwicklung von SAPUI5-Anwendungen](https://learning.sap.com/learning-journeys/develop-sapui5-applications)
+
+---
+
+### **CDS-Views und Embedded Analytics**
+
+Erstellung semantisch reicher Datenmodelle und Echtzeitanalysen.  
+- **Kurs:** [Arbeiten mit CDS-Views](https://learning.sap.com/learning-journeys/acquire-core-abap-skills/working-with-cds-view_c289f74d-675e-4084-9d90-5635958ec604)
+
+---
+
+### **Künstliche Intelligenz (AI)**
+
+Integration von AI und Machine Learning zur Optimierung von Geschäftsprozessen.  
+- **Kurs:** [SAP AI Business Services](https://learning.sap.com/learning-journeys/ai-integration-in-sap)
+
+---
+
+Diese Themen und Ressourcen erweitern dein Wissen im SAP-Ökosystem und unterstützen dich dabei, ein Experte in diesen Bereichen zu werden.
+
+
 Viel Erfolg beim Lernen!
 ::contentReference[oaicite:0]{index=0}
  
