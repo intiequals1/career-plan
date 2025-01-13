@@ -96,6 +96,11 @@
             border-radius: 10px;
             background: #ffffff22;
         }
+
+         .video-section {
+            text-align: center;
+            margin: 20px 0;
+        }
     </style>
 </head>
 <body>
@@ -300,12 +305,14 @@
                 <button onclick="checkAnswer('Java')">Java</button>
                 <p id="quiz-result"></p>
             </div>
-
+            
             <h2>Videos und Ressourcen</h2>
-            <p>Hier ist ein Video, das dir bei deinem SAP-Lernpfad helfen kann:</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/C9cK2Z2JDLg?si=dMKgf_JQZGvaZ9pA" frameborder="0" allowfullscreen></iframe>
+            <div class="video-section">
+                 <p>Hier ist ein Video, das dir bei deinem SAP-Lernpfad helfen kann:</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/C9cK2Z2JDLg?si=dMKgf_JQZGvaZ9pA" frameborder="0" allowfullscreen></iframe>
+            </div>
 
-
+            
             <script>
                 function checkAnswer(answer) {
                     const result = document.getElementById("quiz-result");
