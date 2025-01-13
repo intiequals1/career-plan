@@ -2,7 +2,88 @@
 <head>
 <title>DDIC</title>
 </head>
+  <style>
+        /* Custom styles for sections */
+        .week-section, .resources-section, .topic-section {
+            margin: 20px 0;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+        }
+
+        .note, .success-note, .success-wish {
+            font-style: italic;
+            margin-top: 20px;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+        }
+
+        .success-note {
+            color: #2c3e50;
+            font-weight: bold;
+        }
+
+        .success-wish {
+            color: #2c3e50;
+            font-weight: bold;
+            text-align: center;
+            font-size: 1.2em;
+        }
+
+        /* From https://css.glass */
+        .glassmorphism {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(5.9px);
+            -webkit-backdrop-filter: blur(5.9px);
+            border: 1px solid rgba(255, 255, 255, 1);
+            padding: 20px;
+            margin: 20px;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #6e8efb, #a777e3);
+            min-height: 100vh;
+        }
+
+        h1, h2, h3 {
+            color: #333;
+        }
+
+        a {
+            color: #2c3e50;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #3498db;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
 <body>
+    <div class="container">
+        <div class="glassmorphism">
 <h1>DDIC</h1>
 <p>Lerne mehr über <a href='https://learning.sap.com/learning-journeys/acquire-core-abap-skills' target='_blank'>DDIC</a>.</p>
 <h2>Notizen</h2>
