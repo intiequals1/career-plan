@@ -277,6 +277,46 @@
                 <p><strong>Kurs:</strong> <a href="https://learning.sap.com/learning-journeys/ai-integration-in-sap">SAP AI Business Services</a></p>
             </div>
 
+             <h2>Interaktives Quiz</h2>
+            <div class="quiz-section">
+                <h3>Test dein Wissen</h3>
+                <p>Was ist die Hauptprogrammiersprache von SAP?</p>
+                <button onclick="checkAnswer('ABAP')">ABAP</button>
+                <button onclick="checkAnswer('Java')">Java</button>
+                <p id="quiz-result"></p>
+            </div>
+
+            <h2>Videos und Ressourcen</h2>
+            <p>Hier sind einige Videos, die dir bei deinem SAP-Lernpfad helfen können:</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+
+            <h2>Diskussion</h2>
+            <p>Teile deine Erfahrungen und lerne mit anderen:</p>
+            <div id="disqus_thread"></div>
+            <script>
+                var disqus_config = function () {
+                    this.page.url = window.location.href;
+                    this.page.identifier = document.title;
+                };
+                (function() {
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://your-site-name.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                })();
+            </script>
+
+            <script>
+                function checkAnswer(answer) {
+                    const result = document.getElementById("quiz-result");
+                    if (answer === "ABAP") {
+                        result.textContent = "Richtig!";
+                    } else {
+                        result.textContent = "Falsch, die richtige Antwort ist ABAP.";
+                    }
+                }
+            </script>
+            
             <p class="success-note">Diese Themen und Ressourcen erweitern dein Wissen im SAP-Ökosystem und unterstützen dich dabei, ein Experte in diesen Bereichen zu werden.</p>
             
             <p class="success-wish">Viel Erfolg beim Lernen!</p>
