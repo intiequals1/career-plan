@@ -1,5 +1,46 @@
 # Monatsplan für SAP-Entwicklung
 
+# SAP Learning Path
+
+## Übersicht der Themen
+
+Im folgenden Menü findest du die Links zu den generierten HTML-Seiten. Klicke auf ein Thema, um die entsprechende Seite mit Kursinformationen und Platz für Notizen zu öffnen.
+
+### Themen
+- [ABAP](SAP_Learning_Pages_With_Notes/ABAP.html)
+- [ABAP OO](SAP_Learning_Pages_With_Notes/ABAP_OO.html)
+- [DDIC](SAP_Learning_Pages_With_Notes/DDIC.html)
+- [SAPUI5](SAP_Learning_Pages_With_Notes/SAPUI5.html)
+- [Schnittstellen und Webservices](SAP_Learning_Pages_With_Notes/Schnittstellen_und_Webservices.html)
+- [SAP BTP – Integration Suite](SAP_Learning_Pages_With_Notes/SAP_BTP_–_Integration_Suite.html)
+- [SAP BTP – Entwicklungsumgebung (ABAP Cloud)](SAP_Learning_Pages_With_Notes/SAP_BTP_–_Entwicklungsumgebung_(ABAP_Cloud).html)
+- [Workflow](SAP_Learning_Pages_With_Notes/Workflow.html)
+- [Formulare](SAP_Learning_Pages_With_Notes/Formulare.html)
+- [Berichte, Schnittstellen, Zusatztransaktionen, Fiori-Apps](SAP_Learning_Pages_With_Notes/Berichte,_Schnittstellen,_Zusatztransaktionen,_Fiori-Apps.html)
+- [CDS-Views und Embedded Analytics](SAP_Learning_Pages_With_Notes/CDS-Views_und_Embedded_Analytics.html)
+- [Künstliche Intelligenz (AI)](SAP_Learning_Pages_With_Notes/Künstliche_Intelligenz_(AI).html)
+
+---
+
+## Weiterführende Informationen
+
+Neben den Themen enthält jede Seite:
+- **Links zu offiziellen Kursressourcen:** Ermöglicht den Zugriff auf relevante SAP-Lerninhalte.
+- **Notizenbereich:** Speichere deine persönlichen Gedanken und Beobachtungen.
+
+---
+
+## Verwendung
+
+1. Öffne das Menü und klicke auf ein Thema deiner Wahl.
+2. Besuche den verlinkten Kurs, um die Inhalte zu erlernen.
+3. Schreibe deine Notizen direkt auf der HTML-Seite und speichere sie (lokal im Browser).
+
+---
+
+Viel Erfolg bei deinem Lernpfad!
+
+
 ## Woche 1: Einführung in ABAP und ABAP OO
 
 - **Kurs:** [Grundlegende ABAP-Fähigkeiten erwerben](https://learning.sap.com/learning-journeys/acquire-core-abap-skills)
