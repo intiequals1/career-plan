@@ -20,25 +20,17 @@ Im folgenden Menü findest du die Links zu den generierten HTML-Seiten. Klicke a
 - [CDS-Views und Embedded Analytics](SAP_Learning_Pages_With_Notes/CDS-Views_und_Embedded_Analytics.html)
 - [Künstliche Intelligenz (AI)](SAP_Learning_Pages_With_Notes/Künstliche_Intelligenz_(AI).html)
 
----
-
 ## Weiterführende Informationen
 
 Neben den Themen enthält jede Seite:
 - **Links zu offiziellen Kursressourcen:** Ermöglicht den Zugriff auf relevante SAP-Lerninhalte.
 - **Notizenbereich:** Speichere deine persönlichen Gedanken und Beobachtungen.
 
----
-
 ## Verwendung
 
 1. Öffne das Menü und klicke auf ein Thema deiner Wahl.
 2. Besuche den verlinkten Kurs, um die Inhalte zu erlernen.
 3. Schreibe deine Notizen direkt auf der HTML-Seite und speichere sie (lokal im Browser).
-
----
-
-Viel Erfolg bei deinem Lernpfad!
 
 
 ## Woche 1: Einführung in ABAP und ABAP OO
