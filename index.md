@@ -1,5 +1,3 @@
-# Monatsplan für SAP-Entwicklung
-
 # SAP Learning Path
 
 ## Übersicht der Themen
@@ -32,8 +30,9 @@ Neben den Themen enthält jede Seite:
 2. Besuche den verlinkten Kurs, um die Inhalte zu erlernen.
 3. Schreibe deine Notizen direkt auf der HTML-Seite und speichere sie (lokal im Browser).
 
+---
 
-## Woche 1: Einführung in ABAP und ABAP OO
+### Woche 1: Einführung in ABAP und ABAP OO
 
 - **Kurs:** [Grundlegende ABAP-Fähigkeiten erwerben](https://learning.sap.com/learning-journeys/acquire-core-abap-skills)
   - **Inhalte:**
@@ -45,7 +44,7 @@ Neben den Themen enthält jede Seite:
     - Erstellen einfacher ABAP-Programme
     - Anwendung von ABAP OO-Prinzipien
 
-## Woche 2: Datenmodellierung und CDS-Views
+### Woche 2: Datenmodellierung und CDS-Views
 
 - **Kurs:** [Datenmodellierung im ABAP Dictionary und ABAP Core Data Services](https://learning.sap.com/learning-journeys/acquire-core-abap-skills/data-modeling-in-abap-dictionary-and-abap-core-data-services)
   - **Inhalte:**
@@ -56,7 +55,7 @@ Neben den Themen enthält jede Seite:
     - Verständnis der Datenmodellierung in ABAP
     - Entwicklung von CDS-Views für erweiterte Datenabfragen
 
-## Woche 3: Entwicklung von SAPUI5-Anwendungen
+### Woche 3: Entwicklung von SAPUI5-Anwendungen
 
 - **Kurs:** [Entwicklung von SAPUI5-Anwendungen](https://learning.sap.com/learning-journeys/develop-sapui5-applications)
   - **Inhalte:**
@@ -67,7 +66,7 @@ Neben den Themen enthält jede Seite:
     - Entwicklung interaktiver Benutzeroberflächen
     - Integration von Daten in SAPUI5-Anwendungen
 
-## Woche 4: SAP Workflow und Formularentwicklung
+### Woche 4: SAP Workflow und Formularentwicklung
 
 - **Kurs:** [Erstellen einer Benutzeroberfläche mit SAPUI5](https://learning.sap.com/learning-journeys/developing-business-processes-with-sap-process-orchestration/creating-a-user-interface-with-sapui5)
   - **Inhalte:**
@@ -78,7 +77,7 @@ Neben den Themen enthält jede Seite:
     - Verständnis der Workflow-Entwicklung in SAP
     - Erstellung und Integration von Formularen in Workflows
 
-## Zusätzliche Ressourcen
+### Zusätzliche Ressourcen
 
 - **Praxisübungen:**
   - [Hands-on Practice für die Entwicklung von UIs mit SAPUI5](https://learning.sap.com/practice-systems/developing-uis-with-sapui5)
@@ -89,86 +88,86 @@ Neben den Themen enthält jede Seite:
 
 **Hinweis:** Dieser Plan dient als Leitfaden. Passe die Zeiten entsprechend deinem individuellen Lerntempo und deinen Verpflichtungen an. Es ist wichtig, regelmäßig zu üben und das Gelernte in praktischen Projekten anzuwenden, um ein tiefes Verständnis zu entwickeln.
 
-## Zusätzliche Themen und Ressourcen
+### Zusätzliche Themen und Ressourcen
 
-### **ABAP (Advanced Business Application Programming)**
+#### **ABAP (Advanced Business Application Programming)**
 
 ABAP ist die Basisprogrammiersprache in SAP zur Erstellung von Geschäftsanwendungen.  
 - **Kurs:** [Grundlegende ABAP-Fähigkeiten erwerben](https://learning.sap.com/learning-journeys/acquire-core-abap-skills)
 
 ---
 
-### **ABAP OO (Objektorientiertes ABAP)**
+#### **ABAP OO (Objektorientiertes ABAP)**
 
 Ermöglicht die Entwicklung modularer und wartbarer Anwendungen mit Klassen und Objekten.  
 - **Kurs:** [Grundlegende ABAP-Fähigkeiten erwerben](https://learning.sap.com/learning-journeys/acquire-core-abap-skills)
 
 ---
 
-### **DDIC (Data Dictionary)**
+#### **DDIC (Data Dictionary)**
 
 Verwaltung von Datenbankobjekten wie Tabellen, Views und Datenelementen im SAP-System.  
 - **Kurs:** [Grundlegende ABAP-Fähigkeiten erwerben](https://learning.sap.com/learning-journeys/acquire-core-abap-skills)
 
 ---
 
-### **SAPUI5**
+#### **SAPUI5**
 
 Framework für die Entwicklung von modernen Benutzeroberflächen.  
 - **Kurs:** [Entwicklung von SAPUI5-Anwendungen](https://learning.sap.com/learning-journeys/develop-sapui5-applications)
 
 ---
 
-### **Schnittstellen und Webservices (BAdIs, User-Exits)**
+#### **Schnittstellen und Webservices (BAdIs, User-Exits)**
 
 Integration externer Systeme und Erweiterung von Standardfunktionen.  
 - **Kurs:** [Entwicklererweiterungen verstehen](https://learning.sap.com/learning-journeys/practicing-clean-core-extensibility-for-sap-s-4hana-cloud/explaining-developer-extensibility_f2683861-d69e-4a59-9e3e-01e3cc20fb0f)
 
 ---
 
-### **SAP BTP – Integration Suite**
+#### **SAP BTP – Integration Suite**
 
 Integration von Daten und Anwendungen über SAP- und Nicht-SAP-Systeme hinweg.  
 - **Kurs:** [Einrichtung einer ABAP-Umgebung in SAP BTP](https://learning.sap.com/learning-journeys/setting-up-an-abap-environment-on-sap-btp)
 
 ---
 
-### **SAP BTP – Entwicklungsumgebung (ABAP Cloud)**
+#### **SAP BTP – Entwicklungsumgebung (ABAP Cloud)**
 
 Cloudbasierte Umgebung für die Entwicklung von Anwendungen.  
 - **Kurs:** [Grundlagen von ABAP verstehen](https://learning.sap.com/learning-journeys/learn-the-basics-of-abap-programming-on-sap-btp/understanding-abap)
 
 ---
 
-### **Workflow**
+#### **Workflow**
 
 Automatisierung und Verwaltung von Geschäftsprozessen.  
 - **Kurs:** [Workflow-Entwicklung mit SAP](https://learning.sap.com/learning-journeys/developing-business-processes-with-sap-process-orchestration)
 
 ---
 
-### **Formulare (SAPScript, SmartForms, Adobe Forms)**
+#### **Formulare (SAPScript, SmartForms, Adobe Forms)**
 
 Erstellung und Anpassung von Geschäftsdokumenten.  
 - **Kurs:** [Formulare entwickeln](https://learning.sap.com/learning-journeys/acquire-core-abap-skills)
 
 ---
 
-### **Berichte, Schnittstellen, Zusatztransaktionen, Fiori-Apps**
+#### **Berichte, Schnittstellen, Zusatztransaktionen, Fiori-Apps**
 
 Erstellung individueller Lösungen und Erweiterung von Standardanwendungen.  
 - **Kurs:** [Entwicklung von SAPUI5-Anwendungen](https://learning.sap.com/learning-journeys/develop-sapui5-applications)
 
 ---
 
-### **CDS-Views und Embedded Analytics**
+#### **CDS-Views und Embedded Analytics**
 
 Erstellung semantisch reicher Datenmodelle und Echtzeitanalysen.  
 - **Kurs:** [Arbeiten mit CDS-Views](https://learning.sap.com/learning-journeys/acquire-core-abap-skills/working-with-cds-view_c289f74d-675e-4084-9d90-5635958ec604)
 
 ---
 
-### **Künstliche Intelligenz (AI)**
+#### **Künstliche Intelligenz (AI)**
 
 Integration von AI und Machine Learning zur Optimierung von Geschäftsprozessen.  
 - **Kurs:** [SAP AI Business Services](https://learning.sap.com/learning-journeys/ai-integration-in-sap)
