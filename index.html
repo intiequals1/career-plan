@@ -5,55 +5,282 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SAP Learning Path</title>
     <style>
+        /* Custom styles for sections */
+        .week-section, .resources-section, .topic-section {
+            margin: 20px 0;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+        }
+
+        .note, .success-note, .success-wish {
+            font-style: italic;
+            margin-top: 20px;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+        }
+
+        .success-note {
+            color: #2c3e50;
+            font-weight: bold;
+        }
+
+        .success-wish {
+            color: #2c3e50;
+            font-weight: bold;
+            text-align: center;
+            font-size: 1.2em;
+        }
+
         /* From https://css.glass */
         .glassmorphism {
-            background: rgba(255, 255, 255, 0);
+            background: rgba(255, 255, 255, 0.2);
             border-radius: 16px;
             box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
             backdrop-filter: blur(5.9px);
             -webkit-backdrop-filter: blur(5.9px);
             border: 1px solid rgba(255, 255, 255, 1);
+            padding: 20px;
+            margin: 20px;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #6e8efb, #a777e3);
+            min-height: 100vh;
+        }
+
+        h1, h2, h3 {
+            color: #333;
+        }
+
+        a {
+            color: #2c3e50;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #3498db;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
         }
     </style>
 </head>
 <body>
-    <div class="glassmorphism">
-        <h1>Willkommen zum SAP Learning Path</h1>
-        <p>Wähle ein Thema aus:</p>
-        <ul>
-            <li><a href="SAP_Learning_Pages_With_Notes/ABAP.html">ABAP</a></li>
-            <li><a href="SAP_Learning_Pages_With_Notes/ABAP_OO.html">ABAP OO</a></li>
-            <li><a href="SAP_Learning_Pages_With_Notes/DDIC.html">DDIC</a></li>
-            <li><a href="SAP_Learning_Pages_With_Notes/SAPUI5.html">SAPUI5</a></li>
-            <li><a href="SAP_Learning_Pages_With_Notes/Schnittstellen_und_Webservices.html">Schnittstellen und Webservices</a></li>
-            <li><a href="SAP_Learning_Pages_With_Notes/SAP_BTP_%E2%80%93_Integration_Suite.html">SAP BTP – Integration Suite</a></li>
-            <li><a href="SAP_Learning_Pages_With_Notes/SAP_BTP_%E2%80%93_Entwicklungsumgebung_(ABAP_Cloud).html">SAP BTP – Entwicklungsumgebung (ABAP Cloud)</a></li>
-            <li><a href="SAP_Learning_Pages_With_Notes/Workflow.html">Workflow</a></li>
-            <li><a href="SAP_Learning_Pages_With_Notes/Formulare.html">Formulare</a></li>
-            <li><a href="SAP_Learning_Pages_With_Notes/Berichte,_Schnittstellen,_Zusatztransaktionen,_Fiori-Apps.html">Berichte, Schnittstellen, Zusatztransaktionen, Fiori-Apps</a></li>
-            <li><a href="SAP_Learning_Pages_With_Notes/CDS-Views_und_Embedded_Analytics.html">CDS-Views und Embedded Analytics</a></li>
-            <li><a href="SAP_Learning_Pages_With_Notes/Kuenstliche_Intelligenz.html">Künstliche Intelligenz (AI)</a></li>
-        </ul>
+    <div class="container">
+        <div class="glassmorphism">
+            <h1>SAP Learning Path</h1>
 
-        <h2>Übersicht der Themen</h2>
-        <p>Im folgenden Menü findest du die Links zu den generierten HTML-Seiten. Klicke auf ein Thema, um die entsprechende Seite mit Kursinformationen und Platz für Notizen zu öffnen.</p>
+            <h2>Übersicht der Themen</h2>
+            <p>Im folgenden Menü findest du die Links zu den Kursinformationen.</p>
 
-        <h3>Themen</h3>
-        <ul>
-            <li><a href="SAP_Learning_Pages_With_Notes/ABAP.html">ABAP</a></li>
-            <li><a href="SAP_Learning_Pages_With_Notes/ABAP_OO.html">ABAP OO</a></li>
-            <li><a href="SAP_Learning_Pages_With_Notes/DDIC.html">DDIC</a></li>
-            <li><a href="SAP_Learning_Pages_With_Notes/SAPUI5.html">SAPUI5</a></li>
-            <li><a href="SAP_Learning_Pages_With_Notes/Schnittstellen_und_Webservices.html">Schnittstellen und Webservices</a></li>
-            <li><a href="SAP_Learning_Pages_With_Notes/SAP_BTP_%E2%80%93_Integration_Suite.html">SAP BTP – Integration Suite</a></li>
-            <li><a href="SAP_Learning_Pages_With_Notes/SAP_BTP_%E2%80%93_Entwicklungsumgebung_(ABAP_Cloud).html">SAP BTP – Entwicklungsumgebung (ABAP Cloud)</a></li>
-            <li><a href="SAP_Learning_Pages_With_Notes/Workflow.html">Workflow</a></li>
-            <li><a href="SAP_Learning_Pages_With_Notes/Formulare.html">Formulare</a></li>
-            <li><a href="SAP_Learning_Pages_With_Notes/Berichte,_Schnittstellen,_Zusatztransaktionen,_Fiori-Apps.html">Berichte, Schnittstellen, Zusatztransaktionen, Fiori-Apps</a></li>
-            <li><a href="SAP_Learning_Pages_With_Notes/CDS-Views_und_Embedded_Analytics.html">CDS-Views und Embedded Analytics</a></li>
-            <li><a href="SAP_Learning_Pages_With_Notes/Kuenstliche_Intelligenz.html">Künstliche Intelligenz (AI)</a></li>
-        </ul>
+            <h3>Themen</h3>
+            <ul>
+                <li><a href="ABAP.html">ABAP</a></li>
+                <li><a href="ABAP_OO.html">ABAP OO</a></li>
+                <li><a href="DDIC.html">DDIC</a></li>
+                <li><a href="SAPUI5.html">SAPUI5</a></li>
+                <li><a href="Schnittstellen_und_Webservices.html">Schnittstellen und Webservices</a></li>
+                <li><a href="SAP_BTP_Integration_Suite.html">SAP BTP – Integration Suite</a></li>
+                <li><a href="SAP_BTP_Entwicklungsumgebung.html">SAP BTP – Entwicklungsumgebung (ABAP Cloud)</a></li>
+                <li><a href="Workflow.html">Workflow</a></li>
+                <li><a href="Formulare.html">Formulare</a></li>
+                <li><a href="Berichte_Schnittstellen_Fiori.html">Berichte, Schnittstellen, Zusatztransaktionen, Fiori-Apps</a></li>
+                <li><a href="CDS_Views.html">CDS-Views und Embedded Analytics</a></li>
+                <li><a href="KI.html">Künstliche Intelligenz (AI)</a></li>
+            </ul>
 
+            <h2>Weiterführende Informationen</h2>
+            <p>Neben den Themen enthält jede Seite:</p>
+            <ul>
+                <li><strong>Links zu offiziellen Kursressourcen:</strong> Ermöglicht den Zugriff auf relevante SAP-Lerninhalte.</li>
+                <li><strong>Notizenbereich:</strong> Speichere deine persönlichen Gedanken und Beobachtungen.</li>
+            </ul>
+
+            <h2>Verwendung</h2>
+            <ol>
+                <li>Öffne das Menü und klicke auf ein Thema deiner Wahl.</li>
+                <li>Besuche den verlinkten Kurs, um die Inhalte zu erlernen.</li>
+                <li>Schreibe deine Notizen direkt auf der HTML-Seite und speichere sie (lokal im Browser).</li>
+            </ol>
+
+            <h2>Wochenplan</h2>
+            <div class="week-section">
+                <h3>Woche 1: Einführung in ABAP und ABAP OO</h3>
+                <p><strong>Kurs:</strong> <a href="https://learning.sap.com/learning-journeys/acquire-core-abap-skills">Grundlegende ABAP-Fähigkeiten erwerben</a></p>
+                <p><strong>Inhalte:</strong></p>
+                <ul>
+                    <li>Einführung in ABAP</li>
+                    <li>Grundlegende Programmiertechniken</li>
+                    <li>Objektorientierte Programmierung mit ABAP</li>
+                </ul>
+                <p><strong>Ziel:</strong></p>
+                <ul>
+                    <li>Verstehen der ABAP-Syntax und -Konzepte</li>
+                    <li>Erstellen einfacher ABAP-Programme</li>
+                    <li>Anwendung von ABAP OO-Prinzipien</li>
+                </ul>
+            </div>
+
+            <div class="week-section">
+                <h3>Woche 2: Datenmodellierung und CDS-Views</h3>
+                <p><strong>Kurs:</strong> <a href="https://learning.sap.com/learning-journeys/acquire-core-abap-skills/data-modeling-in-abap-dictionary-and-abap-core-data-services">Datenmodellierung im ABAP Dictionary und ABAP Core Data Services</a></p>
+                <p><strong>Inhalte:</strong></p>
+                <ul>
+                    <li>Erstellung von Datenbanktabellen</li>
+                    <li>Definition globaler Datentypen</li>
+                    <li>Erstellung von CDS-Views</li>
+                </ul>
+                <p><strong>Ziel:</strong></p>
+                <ul>
+                    <li>Verständnis der Datenmodellierung in ABAP</li>
+                    <li>Entwicklung von CDS-Views für erweiterte Datenabfragen</li>
+                </ul>
+            </div>
+
+            <div class="week-section">
+                <h3>Woche 3: Entwicklung von SAPUI5-Anwendungen</h3>
+                <p><strong>Kurs:</strong> <a href="https://learning.sap.com/learning-journeys/develop-sapui5-applications">Entwicklung von SAPUI5-Anwendungen</a></p>
+                <p><strong>Inhalte:</strong></p>
+                <ul>
+                    <li>Einführung in SAPUI5</li>
+                    <li>Erstellen von Benutzeroberflächen mit SAPUI5</li>
+                    <li>Datenbindung und Modellierung</li>
+                </ul>
+                <p><strong>Ziel:</strong></p>
+                <ul>
+                    <li>Entwicklung interaktiver Benutzeroberflächen</li>
+                    <li>Integration von Daten in SAPUI5-Anwendungen</li>
+                </ul>
+            </div>
+
+            <div class="week-section">
+                <h3>Woche 4: SAP Workflow und Formularentwicklung</h3>
+                <p><strong>Kurs:</strong> <a href="https://learning.sap.com/learning-journeys/developing-business-processes-with-sap-process-orchestration/creating-a-user-interface-with-sapui5">Erstellen einer Benutzeroberfläche mit SAPUI5</a></p>
+                <p><strong>Inhalte:</strong></p>
+                <ul>
+                    <li>Einführung in SAP Workflow</li>
+                    <li>Entwicklung von Workflows in SAP</li>
+                    <li>Erstellung von Formularen mit SAPUI5</li>
+                </ul>
+                <p><strong>Ziel:</strong></p>
+                <ul>
+                    <li>Verständnis der Workflow-Entwicklung in SAP</li>
+                    <li>Erstellung und Integration von Formularen in Workflows</li>
+                </ul>
+            </div>
+
+            <h2>Zusätzliche Ressourcen</h2>
+            <div class="resources-section">
+                <h3>Praxisübungen</h3>
+                <ul>
+                    <li><a href="https://learning.sap.com/practice-systems/developing-uis-with-sapui5">Hands-on Practice für die Entwicklung von UIs mit SAPUI5</a></li>
+                    <li><a href="https://learning.sap.com/practice-systems/advanced-sap-ui5-development">Hands-on Practice für fortgeschrittene SAP UI5-Entwicklung</a></li>
+                </ul>
+
+                <h3>Zertifizierung</h3>
+                <ul>
+                    <li><a href="https://learning.sap.com/learning-journeys/develop-sapui5-applications">SAP Certified Associate - SAP Fiori Application Developer</a></li>
+                </ul>
+            </div>
+
+            <p class="note"><strong>Hinweis:</strong> Dieser Plan dient als Leitfaden. Passe die Zeiten entsprechend deinem individuellen Lerntempo und deinen Verpflichtungen an. Es ist wichtig, regelmäßig zu üben und das Gelernte in praktischen Projekten anzuwenden, um ein tiefes Verständnis zu entwickeln.            </p>
+
+            <h2>Zusätzliche Themen und Ressourcen</h2>
+            
+            <div class="topic-section">
+                <h3>ABAP (Advanced Business Application Programming)</h3>
+                <p>ABAP ist die Basisprogrammiersprache in SAP zur Erstellung von Geschäftsanwendungen.</p>
+                <p><strong>Kurs:</strong> <a href="https://learning.sap.com/learning-journeys/acquire-core-abap-skills">Grundlegende ABAP-Fähigkeiten erwerben</a></p>
+            </div>
+
+            <div class="topic-section">
+                <h3>ABAP OO (Objektorientiertes ABAP)</h3>
+                <p>Ermöglicht die Entwicklung modularer und wartbarer Anwendungen mit Klassen und Objekten.</p>
+                <p><strong>Kurs:</strong> <a href="https://learning.sap.com/learning-journeys/acquire-core-abap-skills">Grundlegende ABAP-Fähigkeiten erwerben</a></p>
+            </div>
+
+            <div class="topic-section">
+                <h3>DDIC (Data Dictionary)</h3>
+                <p>Verwaltung von Datenbankobjekten wie Tabellen, Views und Datenelementen im SAP-System.</p>
+                <p><strong>Kurs:</strong> <a href="https://learning.sap.com/learning-journeys/acquire-core-abap-skills">Grundlegende ABAP-Fähigkeiten erwerben</a></p>
+            </div>
+
+            <div class="topic-section">
+                <h3>SAPUI5</h3>
+                <p>Framework für die Entwicklung von modernen Benutzeroberflächen.</p>
+                <p><strong>Kurs:</strong> <a href="https://learning.sap.com/learning-journeys/develop-sapui5-applications">Entwicklung von SAPUI5-Anwendungen</a></p>
+            </div>
+
+            <div class="topic-section">
+                <h3>Schnittstellen und Webservices (BAdIs, User-Exits)</h3>
+                <p>Integration externer Systeme und Erweiterung von Standardfunktionen.</p>
+                <p><strong>Kurs:</strong> <a href="https://learning.sap.com/learning-journeys/practicing-clean-core-extensibility-for-sap-s-4hana-cloud/explaining-developer-extensibility_f2683861-d69e-4a59-9e3e-01e3cc20fb0f">Entwicklererweiterungen verstehen</a></p>
+            </div>
+
+            <div class="topic-section">
+                <h3>SAP BTP – Integration Suite</h3>
+                <p>Integration von Daten und Anwendungen über SAP- und Nicht-SAP-Systeme hinweg.</p>
+                <p><strong>Kurs:</strong> <a href="https://learning.sap.com/learning-journeys/setting-up-an-abap-environment-on-sap-btp">Einrichtung einer ABAP-Umgebung in SAP BTP</a></p>
+            </div>
+
+            <div class="topic-section">
+                <h3>SAP BTP – Entwicklungsumgebung (ABAP Cloud)</h3>
+                <p>Cloudbasierte Umgebung für die Entwicklung von Anwendungen.</p>
+                <p><strong>Kurs:</strong> <a href="https://learning.sap.com/learning-journeys/learn-the-basics-of-abap-programming-on-sap-btp/understanding-abap">Grundlagen von ABAP verstehen</a></p>
+            </div>
+
+            <div class="topic-section">
+                <h3>Workflow</h3>
+                <p>Automatisierung und Verwaltung von Geschäftsprozessen.</p>
+                <p><strong>Kurs:</strong> <a href="https://learning.sap.com/learning-journeys/developing-business-processes-with-sap-process-orchestration">Workflow-Entwicklung mit SAP</a></p>
+            </div>
+
+            <div class="topic-section">
+                <h3>Formulare (SAPScript, SmartForms, Adobe Forms)</h3>
+                <p>Erstellung und Anpassung von Geschäftsdokumenten.</p>
+                <p><strong>Kurs:</strong> <a href="https://learning.sap.com/learning-journeys/acquire-core-abap-skills">Formulare entwickeln</a></p>
+            </div>
+
+            <div class="topic-section">
+                <h3>Berichte, Schnittstellen, Zusatztransaktionen, Fiori-Apps</h3>
+                <p>Erstellung individueller Lösungen und Erweiterung von Standardanwendungen.</p>
+                <p><strong>Kurs:</strong> <a href="https://learning.sap.com/learning-journeys/develop-sapui5-applications">Entwicklung von SAPUI5-Anwendungen</a></p>
+            </div>
+
+            <div class="topic-section">
+                <h3>CDS-Views und Embedded Analytics</h3>
+                <p>Erstellung semantisch reicher Datenmodelle und Echtzeitanalysen.</p>
+                <p><strong>Kurs:</strong> <a href="https://learning.sap.com/learning-journeys/acquire-core-abap-skills/working-with-cds-view_c289f74d-675e-4084-9d90-5635958ec604">Arbeiten mit CDS-Views</a></p>
+            </div>
+
+            <div class="topic-section">
+                <h3>Künstliche Intelligenz (AI)</h3>
+                <p>Integration von AI und Machine Learning zur Optimierung von Geschäftsprozessen.</p>
+                <p><strong>Kurs:</strong> <a href="https://learning.sap.com/learning-journeys/ai-integration-in-sap">SAP AI Business Services</a></p>
+            </div>
+
+            <p class="success-note">Diese Themen und Ressourcen erweitern dein Wissen im SAP-Ökosystem und unterstützen dich dabei, ein Experte in diesen Bereichen zu werden.</p>
+            
+            <p class="success-wish">Viel Erfolg beim Lernen!</p>
+        </div>
     </div>
 </body>
 </html>
