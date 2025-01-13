@@ -1,6 +1,7 @@
 name: Monthly Reminder
 
 on:
+  workflow_dispatch: # Fügt eine manuelle Ausführungsoption hinzu
   schedule:
     # Sendet die Erinnerung jeden Monat am 1. Tag
     - cron: "0 9 1 * *"
