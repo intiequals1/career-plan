@@ -1,0 +1,27 @@
+name: Monthly Reminder
+
+on:
+  schedule:
+    # Sendet die Erinnerung jeden Monat am 1. Tag
+    - cron: "0 9 1 * *"
+
+jobs:
+  reminder:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Reminder
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 587
+          username: ${{ secrets.EMAIL_USERNAME }}
+          password: ${{ secrets.EMAIL_PASSWORD }}
+          subject: "Monatliche Erinnerung: Ziele überprüfen"
+          body: |
+            Hallo Claudiu,
+            erinnere dich daran, deinen Fortschritt im 6-Monats-Plan zu überprüfen:
+            - Weiterbildung
+            - Netzwerken
+            - Projektakquise
+            Liebe Grüße, deine GitHub Actions
+          to: claudiu@dangulea.at
