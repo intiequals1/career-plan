@@ -20,69 +20,73 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
-        textarea {
-            width: 100%;
-            height: 300px;
+        pre {
+            background: #f4f4f4;
+            padding: 15px;
+            border-radius: 5px;
             font-family: monospace;
             font-size: 14px;
-            margin-bottom: 20px;
+            overflow-x: auto;
         }
 
-        iframe {
-            width: 100%;
-            height: 400px;
-            border: 1px solid #ddd;
+        .link-div {
+            text-align: center;
+            margin-top: 20px;
         }
 
-        button {
-            display: block;
-            width: 100%;
-            padding: 10px;
-            font-size: 16px;
-            color: #fff;
-            background: #007BFF;
-            border: none;
+        .link-div a {
+            color: #2c3e50;
+            font-weight: bold;
+            text-decoration: none;
+            padding: 10px 20px;
+            background: #fff;
             border-radius: 5px;
-            cursor: pointer;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: background 0.3s ease, color 0.3s ease;
         }
 
-        button:hover {
-            background: #0056b3;
+        .link-div a:hover {
+            background: #2c3e50;
+            color: #fff;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>ABAP Code Lernen</h1>
- <div>
-    <a href="index.html">Zurück zur Startseite</a>
-</div>
+        <p>Der folgende ABAP-Code dient als Beispiel und kann nicht auf dieser Seite ausgeführt werden. Kopiere den Code in eine geeignete Entwicklungsumgebung (z. B. SAP GUI oder ABAP Development Tools), um ihn auszuführen.</p>
+        
+        <h2>ABAP Code Beispiel</h2>
+        <pre>
+*&---------------------------------------------------------------------*
+*& Chapter 1: How to define types and data objects                     *
+*&---------------------------------------------------------------------*
+REPORT CHAP0101.
 
-        <p>Füge deinen Code in das Textfeld ein und klicke auf "Code ausführen", um das Ergebnis anzuzeigen.</p>
-        <textarea id="code-area">
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test Page</title>
-</head>
-<body>
-    <h1>ABAP Learning Path</h1>
-    <p>Dies ist ein Testcode für ABAP Lernen.</p>
-</body>
-</html>
-        </textarea>
-        <button onclick="runCode()">Code ausführen</button>
-        <iframe id="output"></iframe>
+* Elementary type character, length 20
+DATA CUSTOMER_NAME(25) TYPE C.
+
+* Non-elementary type
+TYPES T_NAME(25) TYPE C.
+DATA NEW_CUSTOMER_NAME TYPE T_NAME.
+
+* Reference to a data object
+DATA VENDOR_NAME LIKE CUSTOMER_NAME.
+
+* Record
+DATA: BEGIN OF BOOKING,
+        ID(4) TYPE C,
+        FLIGHT_DATE TYPE D,
+        NAME LIKE CUSTOMER_NAME,
+      END OF BOOKING.
+
+* Internal table
+DATA BOOKING_TABLE LIKE BOOKING OCCURS 100.
+        </pre>
+
+        <div class="link-div">
+            <a href="index.html">Zurück zur Startseite</a>
+        </div>
     </div>
-
-    <script>
-        function runCode() {
-            const code = document.getElementById('code-area').value;
-            const iframe = document.getElementById('output');
-            iframe.srcdoc = code;
-        }
-    </script>
 </body>
 </html>
